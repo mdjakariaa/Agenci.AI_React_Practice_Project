@@ -4,6 +4,7 @@ import HeroSection from "./components/Hero_Section.jsx";
 import CompanySection from "./components/Company_Section.jsx";
 import HelpSection from "./components/Help.jsx";
 import Work_Section from "./components/Work_Section.jsx"; 
+import InputSection from "./components/InputSection.jsx";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,6 +31,7 @@ function App() {
         <CompanySection />
         <HelpSection />
         <Work_Section />
+        <InputSection />
       </main>
     </div>
   );

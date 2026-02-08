@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import HeroSection from "./components/Hero_Section.jsx";
 import CompanySection from "./components/Company_Section.jsx";
 import HelpSection from "./components/Help.jsx";
+import Work_Section from "./components/Work_Section.jsx"; 
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,6 +29,7 @@ function App() {
         <HeroSection />
         <CompanySection />
         <HelpSection />
+        <Work_Section />
       </main>
     </div>
   );

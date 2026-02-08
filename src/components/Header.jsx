@@ -7,7 +7,7 @@ function Header({ darkMode, setDarkMode }) {
   return (
     <div className="w-full">
       <header
-        className="flex justify-between items-center
+        className="flex justify-between items-center fixed
                          w-full py-4 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40
                          bg-gray-100 dark:bg-[#0d111c]"
       >

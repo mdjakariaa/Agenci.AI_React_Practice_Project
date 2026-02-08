@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header.jsx";
 import HeroSection from "./components/Hero_Section.jsx";
 import CompanySection from "./components/Company_Section.jsx";
+import HelpSection from "./components/Help.jsx";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       <main>
         <HeroSection />
         <CompanySection />
+        <HelpSection />
       </main>
     </div>
   );

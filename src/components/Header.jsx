@@ -8,7 +8,7 @@ function Header({ darkMode, setDarkMode }) {
     <div className="w-full">
       <header
         className="flex justify-between items-center fixed
-                         w-full py-4 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40
+                         w-full py-4 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40 
                          bg-gray-100 dark:bg-[#0d111c]"
       >
         <img src={darkMode ? assets.logo_dark : assets.logo} alt="Logo" className="w-[130px] h-[27px] md:w-[167px] md:h-[31px]"/>

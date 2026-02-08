@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header.jsx";
-
+import HeroSection from "./components/Hero_Section.jsx";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +19,12 @@ function App() {
                     text-gray-900 dark:text-gray-100
                     transition-colors duration-300"
     >
-      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+      <div>
+        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+      </div>
+      <main>
+        <HeroSection />
+      </main>
     </div>
   );
 }

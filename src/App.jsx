@@ -5,6 +5,8 @@ import CompanySection from "./components/Company_Section.jsx";
 import HelpSection from "./components/Help.jsx";
 import Work_Section from "./components/Work_Section.jsx"; 
 import InputSection from "./components/InputSection.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -33,6 +35,9 @@ function App() {
         <Work_Section />
         <InputSection />
       </main>
+      <div>
+        <Footer darkMode={darkMode} />
+      </div>
     </div>
   );
 }

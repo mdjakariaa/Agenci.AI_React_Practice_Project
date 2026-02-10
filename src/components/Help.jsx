@@ -2,7 +2,10 @@ import assets from "../assets/assets.js";
 
 export default function HelpSection() {
   return (
-    <section className="flex flex-col justify-center items-center gap-8 w-full py-16 md:py-24 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40">
+    <section
+      id="Services"
+      className="flex flex-col justify-center items-center gap-8 w-full py-16 md:py-24 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40"
+    >
       <h2 className="text-4xl md:text-7xl text-[#394255] dark:text-[#ffffff]">
         How can we help?
       </h2>
@@ -18,7 +21,7 @@ export default function HelpSection() {
             alt="advertisment"
             className="border-10 border-gray-200 dark:border-[#354052] rounded-full dark:bg-[#101727]"
           />
-          <div> 
+          <div>
             <p className="text-xl pb-2">Advertising</p>
             <p>
               We turn bold ideas into powerful digital solutions that connect,

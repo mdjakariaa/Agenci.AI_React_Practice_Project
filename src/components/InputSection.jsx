@@ -2,7 +2,10 @@ import assets from "../assets/assets.js";
 
 export default function Work_Section() {
   return (
-    <section className="flex flex-col gap-4 md:gap-8 w-full py-8 md:py-16 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40">
+    <section
+      id="Contact Us"
+      className="flex flex-col gap-4 md:gap-8 w-full py-8 md:py-16 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40"
+    >
       <h2 className="text-center pt-4xl text-4xl md:text-6xl text-[#394255] dark:text-[#ffffff]">
         Reach out to us
       </h2>

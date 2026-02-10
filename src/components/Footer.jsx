@@ -2,7 +2,7 @@ import assets from "../assets/assets.js";
 
 export default function Header({darkMode}) {
   return (
-    <section className="w-full py-6 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40 bg-[#f9fafc] dark:bg-[#101727]">
+    <section id="connect" className="w-full py-6 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40 bg-[#f9fafc] dark:bg-[#101727]">
       <div className="flex flex-col md:flex-row justify-between border-b-1 border-gray-300 pt-6">
         <div className="flex flex-col gap-y-4">
           <img

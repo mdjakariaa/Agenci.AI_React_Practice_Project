@@ -2,7 +2,7 @@ import assets from "../assets/assets.js";
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col justify-center items-center gap-6 w-full pt-40 pb-20 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40">
+    <section id="home" className="flex flex-col justify-center items-center gap-6 w-full pt-40 pb-20 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-40">
       <div className="flex flex-row items-center gap-2 border-1 border-gray-400 p-2 rounded-4xl">
         <img
           src={assets.group_profile}
